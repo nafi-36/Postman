@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "beee3ff5-dce5-4ee4-8cf0-dec102c930a0",
+		"name": "latihan1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get endpoint",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get profil",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/profil/nafi/17",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"profil",
+						"nafi",
+						"17"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post bujur sangkar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "panjang",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "lebar",
+							"value": "5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:4000/bujur_sangkar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"bujur_sangkar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
